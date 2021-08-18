@@ -9,7 +9,7 @@ html {
 }
 .app-videos {
   position: relative;
-  height: 800px;
+  height: 600px;
   overflow: scroll;
   border-radius: 20px;
   width: 80%;

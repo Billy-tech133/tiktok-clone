@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import "./Video.css";
 import download from "./video/download.mp4";
+import VideoFooter from "./VideoFooter";
 function Video() {
   const [play, setPlay] = useState(false);
   const videoRef = useRef(null);
@@ -19,10 +20,9 @@ function Video() {
         className="video-player"
         onClick={onVideoPress}
         ref={videoRef}
-        loop
-        controls
         src={download}
       ></video>
+      <VideoFooter />
     </div>
   );
 }

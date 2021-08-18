@@ -1,11 +1,12 @@
-.videoFooter {
+.videoFooter{   
+    display: flex;
     position: relative;
     color: white;
     bottom: 150px;
-    display: flex;
     margin-left: 40px;
     padding: 20px;
 }
+
 .videoFooter-record {
     height: 50px;
     filter: invert(1);

@@ -1,7 +1,7 @@
-.videoFooter{   
-    display: flex;
+.videoFooter{ 
     position: relative;
-    color: white;
+    color: white; 
+    display: flex;
     bottom: 150px;
     margin-left: 40px;
     padding: 20px;
@@ -13,11 +13,11 @@
     animation: spinTheRecord infinite 5s linear;
     position: absolute;
     bottom: 0;
-    right: 20;
+    right: 20px;
 }
 .videoFooter-text {
     flex: 1;
-    padding: 20px;
+
 }
 .videoFooter-text > p  {
     padding-bottom: 20px;
